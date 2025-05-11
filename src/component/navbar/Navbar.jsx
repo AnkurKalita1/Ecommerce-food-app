@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 import { StoreContext } from '../context/StoreContext'
 
 
-
-
 function Navbar({setshowlogin}) {
   
 const [menu, setMenu] =useState("home")
@@ -40,3 +38,6 @@ const{getTotalAmount}= useContext(StoreContext)
 }
 
 export default Navbar
+
+
+
